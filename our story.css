@@ -1,9 +1,10 @@
+
 body{
     background-image:url("http://www.sclance.com/backgrounds/cool-background-art/cool-background-art_630984.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    overflow-x: hidden;
 }
+
 .logo img{
     border-radius:40%;
     width:200px;
@@ -15,6 +16,7 @@ ul li{
     display:inline-block;
     padding:5px 50px;
     font-size:40px;
+    float:center;
     position:relative;
 }
 
@@ -23,26 +25,41 @@ li a{
     text-decoration: none;
 }
 
-nav{
-    background-color:#1312129e;
+h2,h3,h4{
+    color:yellow;
+    font-size:70px;
+    text-align:center;
+    text-decoration: underline;
 }
-
-
-
-
-.one{
-    border: 40%;
-}
-
-.gallery{
-    display:flex;
-    width: 100%;
-    height: auto;
-    justify-content: space-evenly;
-}
-
 
 p{
     color:white;
     font-size:30px;
+    text-align: center;
+}
+
+nav{
+    background-color:#1312129e;
+}
+
+.aim,.reach{
+background-color: #22076170;
+}
+
+
+.arts{
+    border:50px;
+}
+
+.moja,.two,.three{
+    display: flex;
+    justify-content:space-around;
+}
+
+.arts{
+    align-content: center;
+}
+
+.photos img{
+    border-radius: 30%
 }
