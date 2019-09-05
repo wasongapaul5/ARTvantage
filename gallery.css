@@ -1,10 +1,8 @@
-
 body{
     background-image:url("http://www.sclance.com/backgrounds/cool-background-art/cool-background-art_630984.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
-
 .logo img{
     border-radius:40%;
     width:200px;
@@ -25,23 +23,12 @@ li a{
     text-decoration: none;
 }
 
-h2{
-    color:yellow;
-    font-size:40px;
-    text-align:center;
-    text-decoration: underline;
-}
-
-p{
-    color:white;
-    font-size:30px;
-}
-
 nav{
     background-color:#1312129e;
 }
 
-.aim,.reach{
-background-color: #22076170;
+.pics{
+    border-radius:70px;
+    justify-content:space-around;
+    display:flex;
 }
-

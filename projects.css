@@ -1,88 +1,88 @@
  body{
-    background-image:url("download (20).jpeg");
+    background-image:url("http://www.sclance.com/backgrounds/cool-background-art/cool-background-art_630984.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    height:650%;
+}
+.logo img{
+    border-radius:40%;
+    width:200px;
+    height:200px;
 }
 
-  nav{
-      text-decoration: none;
-    float:left;
-    margin-top:20px;
-    padding:6px
-} 
-
-.navbar img{
-    border-radius: 30%;
-    width: 200px;
-    height: 200px;
-    float:left;
- }
-
- ul{
-     text-decoration: none;
-    float: right;
-    list-style: none;
-    margin-top:25px;
-}   
 
 ul li{
     display:inline-block;
-    padding:6px 50px;
+    padding:5px 50px;
     font-size:40px;
-    text-decoration:none;
+    float:center;
+    position:relative;
 }
 
-
-                
- 
-
-h2{
-    font-size:70px;
-        color:black;
-        text-align:center;
-        text-decoration: underline;
-} 
-h3{
-font-size:60px;
+li a{
+    color:white;
+    text-decoration: none;
 }
 
-
-.heading{
-     padding:10%;
-     margin:0%
+nav{
+    background-color:#1312129e;
 }
 
 h1{
-    font-size: 50px;
+    color:white;
+    font-size:50px;
+    text-align: center;
 }
-p{
+
+p,h3{
     font-size:30px;
+    color:white;
+    text-align: center;
 }
 
-.images img{
-    border-radius: 32%;
-    width: 200px;
-    height: 200px;
+h2{
+    font-size:60px;
+    color:yellow;;
+    text-align:center;
+    text-decoration:underline;
 }
 
-.hacks img{
-      border-radius: 100%;
-      width:200px;
-      height:200px;
+
+.images{
+          border-radius: 50px;
+          justify-content:space-around;
+          display:flex;
+               
 }
 
-.beads img{
-       border-radius: 20%;
-       width:200px;
-       height:200px;
+.necklace{
+    background-color:gray;
+    align-content:center;
 }
 
-h4{
-    font-size: 30px;
-    float:left;
+.braces{
+       border-radius: 60px;
+       justify-content:space-around;
+        display:flex;
+       
 }
 
-nav>ul>li>a:hover{
-    color: white;
-    text-decoration: none;
+.bracelets{
+    background-color: #808080bf;
+}
+
+.sandals{
+        background-color:#00008b8a;
+}
+
+
+.sands  {
+    border-radius: 50px;
+    justify-content:space-around;
+    display:flex;
+}
+
+.hacks{
+    border-radius: 40%;
+    justify-content:space-around;
+    display:flex;
+}
