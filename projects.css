@@ -41,17 +41,19 @@ p,h3{
 
 h2{
     font-size:60px;
-    color:yellow;;
+    color:white;
     text-align:center;
     text-decoration:underline;
 }
 
 
 .images{
-          border-radius: 50px;
           justify-content:space-around;
           display:flex;
-               
+}
+
+.images img{
+    border-radius: 20%
 }
 
 .necklace{
@@ -60,29 +62,38 @@ h2{
 }
 
 .braces{
-       border-radius: 60px;
        justify-content:space-around;
         display:flex;
-       
+}
+
+.braces img{
+      border-radius: 20%
 }
 
 .bracelets{
     background-color: #808080bf;
 }
 
+
 .sandals{
-        background-color:#00008b8a;
+        background-color:gray;
 }
 
 
 .sands  {
-    border-radius: 50px;
     justify-content:space-around;
     display:flex;
 }
 
+.sands img{
+    border-radius: 20%
+}
+
 .hacks{
-    border-radius: 40%;
     justify-content:space-around;
     display:flex;
+}
+
+.hacks img{
+    border-radius: 20%
 }

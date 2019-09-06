@@ -25,7 +25,7 @@ li a{
     text-decoration: none;
 }
 
-h2{
+h2,h3,h4{
     color:yellow;
     font-size:40px;
     text-align:center;
@@ -45,3 +45,16 @@ nav{
 background-color: #22076170;
 }
 
+
+.arts{
+    border:50px;
+}
+
+.one,.two,.three{
+    display: flex;
+    justify-content:stretch;
+}
+
+.arts{
+    align-content: center;
+}
